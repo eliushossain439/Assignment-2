@@ -2,101 +2,105 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
  /* body  */
- body{
-    font-family: 'Poppins', sans-serif;
-    width: 950px;
-    margin: auto;
- }
- /* navitgation bar */
+    body{
+        font-family: 'Poppins', sans-serif;
+        width: 950px;
+        margin: auto;
+    }
+    /* navitgation bar */
 
 
- /* banner section  */
- header{
-     background-color: blue; 
- }
- .banner{
-    display: flex;
-    padding: 40px;
+    /* banner section  */
+    header{
+        background-color: blue; 
+    }
+    .banner{
+        display: flex;
+        padding: 40px;
+        
+    }
+    .banner-name{
+        color: #FFFFFF;
+        font-size: 22px;
+        margin-top: 30px;
+    }
+    .banner-logo{
+        width: 550px;
+        height: 438px;
+    }
+    .banner img{
+        width: 100%;    
+    }
+    .banner-anchor{
+        background-color: #E02C6D;
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 10px 24px 10px 24px;
+    }
+    .banner-anchor:hover{
+        padding: 30px;
+        transition: 1.5s, 1.5s;
+        border-radius: 30px;
+    }
+    .fa-arrow-right{
+        margin-left: 10px;
+    }
+    /* end header section  */
+    /* start players section  */
     
- }
- .banner-name{
-    color: #FFFFFF;
-    font-size: 22px;
-    margin-top: 30px;
- }
- .banner-logo{
-     width: 550px;
-     height: 438px;
- }
- .banner img{
-     width: 100%;
-     
- }
- .banner-anchor{
-     background-color: #E02C6D;
-     color: #FFFFFF;
-     text-decoration: none;
-     padding: 10px 24px 10px 24px;
- }
- .fa-arrow-right{
-    margin-left: 10px;
- }
- /* end header section  */
- /* start players section  */
- 
- .container{
-    width:800px ;
-    margin: auto;
-    margin-top: 50px;
- }
-.players{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 15px;
-}
-.player{
-    box-shadow: 10px 10px 50px gainsboro;
-    padding: 10px 20px 0px 20px;
-}
-.player img{
-    width: 100%;
-}
-/*  end plalyer section*/
-/* start Highlight section */
-.Highlight{
-    display: flex;
-    margin-top: 80px;
-}
-.Highlight-name{
-    width: 520px;
-    padding-right: 20px;
-}
-.Highlight-logo{
-    width: 567px;
-    height: 427px;
+    .container{
+        width:800px ;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 15px;
+    }
+    .player{
+        box-shadow: 10px 10px 50px gainsboro;
+        padding: 10px 20px 0px 20px;
+    }
+    .player img{
+        width: 100%;
+    }
+    /*  end plalyer section*/
+    /* start Highlight section */
+    .Highlight{
+        display: flex;
+        margin-top: 80px;
+    }
+    .Highlight-name{
+        width: 520px;
+        padding-right: 20px;
+    }
+    .Highlight-logo{
+        width: 567px;
+        height: 427px;
 
-}
-.Highlight-logo img{
-    width: 80%;
-    margin-left: 80px;
-}
-/* footer section */
+    }
+    .Highlight-logo img{
+        width: 80%;
+        margin-left: 80px;
+    }
+    /* footer section */
 
-footer{
-    text-align: center;
-}
-.footer-logo img{
-    width: 485px;
-    height: 215px;
-}
-.fab{
-    padding: 10px;
-    background-color: rgb(228, 220, 220);
-    border-radius: 50%;
-}
- /* end footer section  */
- /* start media quary  for i phone x */
+    footer{
+        text-align: center;
+    }
+    .footer-logo img{
+        width: 485px;
+        height: 215px;
+    }
+    .fab{
+        padding: 10px;
+        background-color: rgb(228, 220, 220);
+        border-radius: 50%;
+    }
+    /* end footer section  */
+    /* start media quary  for i phone x */
 
 
 @media only screen and (min-width: 375px) and (max-width: 812px){
@@ -166,7 +170,6 @@ footer{
     /* footer  */
     .footer-logo img{
         width: 126px;
-        height: 30px;
-        
+        height: 30px;   
     }
     }
